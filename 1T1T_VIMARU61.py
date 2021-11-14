@@ -24,7 +24,7 @@ def build_linear_regression_model(input_dim):
 from sklearn.neighbors import KNeighborsClassifier
 
 
-def train(X_train, y_train, X_test, k):
+def train_pred(X_train, y_train, X_test, k):
     '''
     Input: 
         X_train: Training data
