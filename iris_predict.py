@@ -18,4 +18,4 @@ print('Actual target:', y_actual)
 y_pred = [dataset.target_names[i] for i in y_pred]
 print('Predicted target:', y_pred)
 
-print(accuracy_score(y_test, y_pred))
+print('Accuracy score: {:.2f}'.format(accuracy_score(y_test, y_pred)))
